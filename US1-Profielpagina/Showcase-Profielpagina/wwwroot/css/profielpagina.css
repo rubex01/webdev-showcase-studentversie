@@ -106,3 +106,21 @@
 
 
 /*student uitwerking*/
+.profile-content__element {
+    display: flex;
+    flex-direction: column;
+    background: white;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    box-shadow: 0 0 27px rgb(0 0 0 / 8%);
+    border-radius: 0.5rem;
+    transition: .5s;
+}
+
+.profile-content__element:last-child {
+    margin-bottom: 0;
+}
+
+.profile-content__element:hover {
+    transform: scale(1.05);
+}
